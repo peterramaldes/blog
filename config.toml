@@ -1,4 +1,24 @@
-baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "peterramaldes"
+contentdir = "content"
+publishdir = "public"
+builddrafts = false
+baseUrl = "https://peterramaldes.com"
+canonifyurls = true
+title = "Peter A. Ramaldes"
+author = "peterramaldes"
 theme = "pixyll"
+ 
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+
+[indexes]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  mainSections = ["post"]
+  twitter_username = "peterramaldes"
+
