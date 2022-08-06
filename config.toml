@@ -10,9 +10,9 @@ theme = "pixyll"
  
 [markup]
   [markup.tableOfContents]
-    endLevel = 3
+    startLevel = 3
+    endLevel = 10
     ordered = false
-    startLevel = 2
 
 [indexes]
   category = "categories"
