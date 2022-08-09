@@ -1,7 +1,7 @@
 ---
 title: "The Pragmatic Programmer 20th Anniversary Edition"
-date: 2022-08-06T05:17:39-03:00
-draft: true
+date: 2022-08-09T08:25:00-03:00
+draft: false
 ---
 
 These are my notes related to this incredible book. I really recommend
