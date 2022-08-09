@@ -12,7 +12,7 @@ theme = "pixyll"
   [markup.tableOfContents]
     startLevel = 3
     endLevel = 10
-    ordered = false
+    ordered = true
 
 [indexes]
   category = "categories"
