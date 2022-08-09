@@ -27,7 +27,7 @@ publish = "public"
 command = "hugo --gc --minify"
 
 [context.production.environment]
-HUGO_VERSION = "0.68.3"
+HUGO_VERSION = "0.101.0"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
@@ -35,7 +35,7 @@ HUGO_ENABLEGITINFO = "true"
 command = "hugo --gc --minify --enableGitInfo"
 
 [context.split1.environment]
-HUGO_VERSION = "0.68.3"
+HUGO_VERSION = "0.101.0"
 HUGO_ENV = "production"
 
 [[redirects]]
