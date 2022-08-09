@@ -22,3 +22,23 @@ theme = "pixyll"
   mainSections = ["post"]
   twitter_username = "peterramaldes"
 
+[build]
+publish = "public"
+command = "hugo --gc --minify"
+
+[context.production.environment]
+HUGO_VERSION = "0.68.3"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+[context.split1]
+command = "hugo --gc --minify --enableGitInfo"
+
+[context.split1.environment]
+HUGO_VERSION = "0.68.3"
+HUGO_ENV = "production"
+
+[[redirects]]
+from = "/npmjs/*"
+to = "/npmjs/"
+status = 200
